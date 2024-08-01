@@ -1,0 +1,9 @@
+body {
+    background: #FFDBAC;
+    background: -moz-linear-gradient(top, #FFDBAC 0%, #AF6431 75%, #7C4723 100%);
+    background: -webkit-linear-gradient(top, #FFDBAC 0%, #AF6431 75%, #7C4723 100%);
+    background: linear-gradient(to bottom, #FFDBAC 0%, #AF6431 75%, #7C4723 100%);
+    height: 100vh;
+    margin: 0;
+    text-align: center;    
+}
