@@ -8,11 +8,29 @@
     <h1>Priscila D. Rodriguez Fresco's</h1>     
     <script src="script.js"></script>
     <!-- Add navigation bar on top -->
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </div>
-    <img src="../beach-portrait.jpg" alt="Image of Priscila"
+    <div class="tabs">
+        <div class="tabs_topbar">
+            <button class="home home-active" data-for-tab="home">Home</button>
+            <button class="about" data-for-tab="about">About</button>
+            <button class="contact" data-for-tab="contact">Contact</button>
+        </div>
+        <div class="tabs_content" data-tab="home">
+            <img src="/Users/Pri/Development/code/se-prep/final-se-project/Images/beach-portrait.jpg" alt="Image of Priscila">
+        </div>
+
+        <div class="tabs_content" data-tab="about">
+            <!-- Image wrapped in hyperlink -->
+             <a href="https://www.linkedin.com/in/priscilarf/" target="_blank">
+                <img src="/Users/Pri/Development/code/se-prep/final-se-project/Images/LinkedIn_icon.png" alt="LinkedIn Logo" class="linked-image">
+            </a>
+        </div>
+        <div class="tabs_content" data-tab="contact">
+            <img src="/Users/Pri/Development/code/se-prep/final-se-project/Images/email_png.png" alt="email" class="email-logo" width="512" height="512">
+                <a href="mailto:priscila.rodriguezfresco@gmail.com" class="email-address">priscila.rodriguezfresco@gmail.com</a>
+            <img src="/Users/Pri/Development/code/se-prep/final-se-project/Images/discord_png.png" alt="discord" class="discord-logo" width="512" height="512">
+                <p>@Priscila_95</p>
+        </div>
+    </div>
+
   </body>
 </html>

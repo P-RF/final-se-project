@@ -4,40 +4,70 @@ body {
     background: -moz-linear-gradient(top, #FFDBAC 0%, #AF6431 75%, #7C4723 100%);
     background: -webkit-linear-gradient(top, #FFDBAC 0%, #AF6431 75%, #7C4723 100%);
     background: linear-gradient(to bottom, #FFDBAC 0%, #AF6431 75%, #7C4723 100%);
-    height: 100vh;
     margin: 0;
-    text-align: center;   
+    text-align: center; 
 }
 /* Title of page */
 h1 {
+    color: #7C4723;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-family: 'Sterling'; serif;
 }
 /* Sub title of page */
 h2 {
+    color: #7C4723;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-family: 'Sterling'; serif;
 }
 /* Add a black background color to the top navigation */
-.topnav {
+.tabs {
     overflow: hidden;
     font-family: 'Sterling'; serif;
   }
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: center;
-    color: #f2f2f2;
+/* Style the links inside the navigation bar */
+    .tabs_topbar button {
+    color: #f2f0ec;
+    background-color: #AF6431;
     text-align: center;
-    padding: 14px 16px;
+    padding: 5px 12px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;
   }
-  /* Change the color of links on hover */
-  .topnav a:hover {
+/* Change the color of links on hover */
+  .tabs_topbar button:hover {
     background-color: #7C4723;
-    color: #ddd;
+    color: #f2f0ec;
   }
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #7C4723;
-    color: #ddd;
+/* Round image corners*/
+  img {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
+  .contact-info {
+    text-align: center;
+}
+
+.email-logo,
+.discord-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.email-address {
+    display: block;
+    text-decoration: none;
+    color: #000; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
